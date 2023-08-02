@@ -12,7 +12,6 @@ To install the custom layer package, you can use `pip`. Run the following comman
 
 ```bash
 pip install git+https://github.com/iampareshk/decodeDeepLearning.git@master
-'''
 
 ##Example of using the custom layer
 
