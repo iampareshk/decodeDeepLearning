@@ -12,10 +12,10 @@ To install the custom layer package, you can use `pip`. Run the following comman
 
 ```bash
 pip install git+https://github.com/iampareshk/decodeDeepLearning.git@master
-'''
 
-Example of using the custom layer
-Assuming you have already created your custom pooling function custom_pooling_function, you can create a custom layer using the CustomLayer function from the decodeDeepLearning package.
+
+##Example of using the custom layer
+#Assuming you have already created your custom pooling function custom_pooling_function, you can create a custom layer using the #CustomLayer function from the decodeDeepLearning package.
 
 '''python
 #Import the necessary modules
