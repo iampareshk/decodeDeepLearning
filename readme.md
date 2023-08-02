@@ -11,4 +11,4 @@ This is a custom layer package for TensorFlow Keras that allows you to create cu
 To install the custom layer package, you can use `pip`. Run the following command in your terminal:
 
 ```bash
-pip install git+https://github.com/iampareshk/decodeDeepLearning.git
+pip install git+https://github.com/iampareshk/decodeDeepLearning.git@master
