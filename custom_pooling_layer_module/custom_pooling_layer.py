@@ -2,9 +2,9 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Layer
 
-class CustomLayer(Layer):
+class CustomPoolingLayer(Layer):
     def __init__(self, call_function, compute_output_shape_function=None, **kwargs):
-        super(CustomLayer, self).__init__(**kwargs)
+        super(CustomPoolingLayer, self).__init__(**kwargs)
         self._call_function = call_function
         self._compute_output_shape_function = compute_output_shape_function
 
@@ -20,7 +20,7 @@ class CustomLayer(Layer):
             return output_shape.shape
 
     def get_config(self):
-        config = super(CustomLayer, self).get_config()
+        config = super(CustomPoolingLayer, self).get_config()
         return config
 
     @classmethod
